@@ -72,8 +72,8 @@
         expect(ag.aritGeo('bootcamp2017')).toEqual('Invalid inputs');
       });
 
-      it("Should return `Invalid inputs` for `[3, 'a', 6]`", function(){
-        expect(ag.aritGeo([3, 'a', 6])).toEqual('Invalid inputs');
+      it("Should return `-1` for `[3, 'a', 6]`", function(){
+        expect(ag.aritGeo([3, 'a', 6])).toEqual(-1);
       });
 
       it("Should return `Array length must not be less than 3` for `[2, 3]`", function(){
