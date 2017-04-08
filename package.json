@@ -1,0 +1,19 @@
+{
+  "name": "self-learning-clinic-day-0",
+  "version": "1.0.0",
+  "description": "This is the assignments for the self learning clinic day 0",
+  "main": "app/library.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boluwatifes/daniel-self-learning-clinic-day-0.git"
+  },
+  "author": "Bamidele Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Boluwatifes/daniel-self-learning-clinic-day-0/issues"
+  },
+  "homepage": "https://github.com/Boluwatifes/daniel-self-learning-clinic-day-0#readme"
+}
