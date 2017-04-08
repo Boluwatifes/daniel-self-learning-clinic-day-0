@@ -75,6 +75,10 @@
       it("Should return `Invalid inputs` for `[3, 'a', 6]`", function(){
         expect(ag.aritGeo([3, 'a', 6])).toEqual('Invalid inputs');
       });
+
+      it("Should return `Array length must not be less than 3` for `[2, 3]`", function(){
+        expect(ag.aritGeo([2, 3])).toEqual('Array length must not be less than 3');
+      })
     })
   });
 })();
